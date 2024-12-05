@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './index.css';
+import logo from '../logo.svg';
+import '../index.css';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Sidebar/>
     </div>
   );
 }

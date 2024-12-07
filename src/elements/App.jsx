@@ -1,13 +1,12 @@
-import logo from '../logo.svg';
 import '../index.css';
 import Sidebar from './Sidebar';
 
 function App() {
   return (
-    <div className="flex">
+    <div className="flex w-full">
       <Sidebar/>
-      <div>
-         <div className='bg-gray-600 max-w-fit h-screen'>
+      <div className='w-full'>
+         <div className='bg-gray-400 w-full h-screen'>
 
          </div>
       </div>

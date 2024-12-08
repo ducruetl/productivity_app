@@ -1,14 +1,17 @@
-import '../index.css';
-import Sidebar from './Sidebar';
+import '../index.css'
+import Sidebar from './Sidebar'
+import Header from './Header'
 
 function App() {
   return (
-    <div className="flex w-full">
+    <div className="flex w-full bg-gray-400">
       <Sidebar/>
-      <div className='w-full'>
-         <div className='bg-gray-400 w-full h-screen'>
+      
+      <div className='w-[86vw] flex flex-col ml-[14vw]'>
+        <Header title="Default"/>
+        <div className='w-full h-screen'>
 
-         </div>
+        </div>
       </div>
     </div>
   );

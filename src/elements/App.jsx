@@ -10,7 +10,7 @@ function App() {
       <div className='w-[86vw] flex flex-col ml-[14vw]'>
         <Header title="Default"/>
         <div className='w-full h-screen'>
-
+					
         </div>
       </div>
     </div>
